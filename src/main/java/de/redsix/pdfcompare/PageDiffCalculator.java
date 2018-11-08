@@ -55,4 +55,28 @@ public class PageDiffCalculator {
     public int hashCode() {
         return Objects.hash(diffsFound, diffsFoundInExclusion);
     }
+
+	public int getDiffsFound() {
+		return diffsFound;
+	}
+
+	public void setDiffsFound(int diffsFound) {
+		this.diffsFound = diffsFound;
+	}
+
+	public int getDiffsFoundInExclusion() {
+		return diffsFoundInExclusion;
+	}
+
+	public void setDiffsFoundInExclusion(int diffsFoundInExclusion) {
+		this.diffsFoundInExclusion = diffsFoundInExclusion;
+	}
+
+	public int getTotalPixels() {
+		return totalPixels;
+	}
+
+	public double getAllowedDiffInPercent() {
+		return allowedDiffInPercent;
+	}
 }

@@ -48,7 +48,7 @@ public class PdfComparator<T extends CompareResult> {
     public static final int DPI = 300;
     private static final int EXTRA_RGB = new Color(0, 160, 0).getRGB();
     private static final int MISSING_RGB = new Color(220, 0, 0).getRGB();
-    public static final int MARKER_WIDTH = 20;
+    public static final int MARKER_WIDTH = 80;
     private final Exclusions exclusions = new Exclusions();
     private InputStreamSupplier expectedStreamSupplier;
     private InputStreamSupplier actualStreamSupplier;
