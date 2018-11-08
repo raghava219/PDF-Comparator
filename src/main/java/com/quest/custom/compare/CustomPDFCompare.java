@@ -11,13 +11,15 @@ public class CustomPDFCompare {
 			
 		System.setProperty("sun.java2d.cmm", "sun.java2d.cmm.kcms.KcmsServiceProvider");	
 			
-		String actualFile = "./pdf_files/client/ActualFile.pdf";
-		String expectedFile = "./pdf_files/client/ExpectedFile.PDF";
-		String diffOutputFile = "./pdf_files/client/clientDiffOutputFile_4.PDF";
+		/*String actualFile = "./pdf_files/client/Automation_025.pdf";
+		String expectedFile = "./pdf_files/client/Automation_027.PDF";
+		String diffOutputFile = "./pdf_files/client/clientDiffOutputFile_6.PDF";*/
 		
-		/*String actualFile = "./pdf_files/actual.pdf";
+		String actualFile = "./pdf_files/actual.pdf";
 		String expectedFile = "./pdf_files/expected.PDF";
-		String diffOutputFile = "./pdf_files/diffOutputFile_11.PDF";*/
+		String diffOutputFile = "./pdf_files/diffOutputFile_15.PDF";
+		
+		
 
 		PdfComparator pdfCompObj =	new PdfComparator(expectedFile, actualFile);
 		
